@@ -10,7 +10,11 @@
 }
 
 .carousel{
-    height: 10%;
+    height: 25%;
+    width: 100%;
+}
+
+.cards{
     width: 100%;
 }
 
