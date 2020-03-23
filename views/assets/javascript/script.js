@@ -2,4 +2,4 @@ function moveBees(){
     $(".bees").addClass("animate");
 };
 
-$window.setInterval(moveBees, 2000);
+$window.setInterval(moveBees, 10000);
