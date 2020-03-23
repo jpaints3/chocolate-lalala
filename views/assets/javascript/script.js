@@ -1,5 +1,5 @@
-function move(){
+function moveBees(){
     $(".bees").addClass("animate");
 };
 
-$window.setInterval(move, 200);
+$window.setInterval(moveBees, 200);
