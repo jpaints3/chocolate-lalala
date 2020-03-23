@@ -1,3 +1,5 @@
 .nav-item{
-    padding-right:width/4
+    width : auto;
+    display: inline-block;
 }
+
