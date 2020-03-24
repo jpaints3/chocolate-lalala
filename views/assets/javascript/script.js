@@ -14,10 +14,21 @@ window.onload = function(){
 
 
 var goalCard = document.getElementById("goal-card");
+var hobbyCard = document.getElementById("hobbies-card");
+var historyCard = document.getElementById("history-card");
+
 
 function scrollToGoal(){
     goalCard.scrollIntoView();
 };
+function scrollToHobbies(){
+    hobbyCard.scrollIntoView();
+};
+function scrollToHistory(){
+    historyCard.scrollIntoView();
+};
+
+
 
 
 
