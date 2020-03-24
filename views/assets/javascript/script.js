@@ -1,5 +1,4 @@
 function startTimer(){
-    alert("Running animation");
     setInterval(function moveBees(){
         $(".bees").addClass("animate");
     }, 2000);
@@ -13,4 +12,6 @@ window.onload = function(){
     startTimer();
 };
 
-(".goals").onclick.scrollTo(".goal-card");
+(".goals").click(function(){
+    window.scrollTo(".goal-card")
+});
