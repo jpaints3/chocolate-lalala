@@ -12,6 +12,12 @@ window.onload = function(){
     startTimer();
 };
 
-// $(".goals").click(function(){
-//     $.scrollTo(".goal-card", 500);
-// });
+
+var goalCard = document.getElementById("goal-card");
+
+function scrollToGoal(){
+    goalCard.scrollIntoView();
+});
+
+
+
