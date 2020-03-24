@@ -12,6 +12,6 @@ window.onload = function(){
     startTimer();
 };
 
-$(".goals").click(function(){
-    $.scrollTo(".goal-card", 500);
-});
+// $(".goals").click(function(){
+//     $.scrollTo(".goal-card", 500);
+// });
