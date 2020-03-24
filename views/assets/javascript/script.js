@@ -13,5 +13,5 @@ window.onload = function(){
 };
 
 (".goals").click(function(){
-    window.scrollTo(".goal-card")
+    scrollTo(".goal-card", 500);
 });
