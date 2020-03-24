@@ -8,7 +8,7 @@ function startTimer(){
 }
 
 window.onload = function(){
-    alert("Hi, thanks for visiting my site! Although, this page can run on any browser size, it looks best on a browser size of 700x1000.");
+    alert("Hi, thanks for visiting my site! Although, this page can run on any browser size, it looks best on a browser size of 1015x765.");
     startTimer();
 };
 
