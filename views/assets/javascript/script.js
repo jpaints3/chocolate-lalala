@@ -17,7 +17,7 @@ var goalCard = document.getElementById("goal-card");
 
 function scrollToGoal(){
     goalCard.scrollIntoView();
-});
+};
 
 
 
