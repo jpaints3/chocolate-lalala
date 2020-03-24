@@ -3,6 +3,9 @@ function startTimer(){
     setInterval(function moveBees(){
         $(".bees").addClass("animate");
     }, 2000);
+    setInterval(function moveBack(){
+        $(".bees").removeClass("animate");
+    }, 3000);
 }
 
 window.onload = function(){
