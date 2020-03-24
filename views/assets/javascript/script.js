@@ -3,8 +3,8 @@ $(window).addEventListener("load", function(){
 });
 
 $(window).addEventListener("load", function startTimer(){
-    $window.alert("Running animation");
-    $window.setInterval(function moveBees(){
+    $(window).alert("Running animation");
+    $(window).setInterval(function moveBees(){
         $(".bees").addClass("animate");
     }, 2000);
 })
